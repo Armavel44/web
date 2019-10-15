@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'akzidenz-grotesk_promedium';
+    src: url('akzidenzgroteskpro-md.woff2') format('woff2'),
+    url('akzidenzgroteskpro-md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: "Segoe UI";
+}
+
+main {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+}
+
+h1.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3.logo-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+}
+
+h4.panel-title {
+    font-size: 14.5pt;
+    font-weight: 700;
+}
+
+.navbar-default {
+    background-color: #f7f7f7;
+    margin-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-header {
+    font-size: 14pt;
+    font-weight: 400;
+    color: #333333;
+}
+
+.post-content {
+    padding-right: 45px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+.post-content:hover {
+    padding-right: 41px;
+    padding-left: 31px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}  */
+
+.post-content-text {
+    font-size: 11pt;
+    color: #999999;
+    font-weight: 300;
+}
+
+.header {
+    background-image: url(../img/headerbg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.panel-default {
+    border-radius: 7px !important;
+}
+
+.panel-heading {
+    background-color: #33b6d6 !important;
+    color: #f7f7f7 !important;
+    border-radius: 7px 7px 0 0;
+    border-bottom: 5px solid #2ea2bf !important;
+}
+
+.panel-group {
+    border-radius: 0 0 9px 9px;
+    border-bottom: 3px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.panel-collapse {
+}
+
+.list-group {
+    border-top: 9px solid #2ea2bf !important;
+    border-radius: 0 0 7px 7px;
+    border-bottom: 4px solid #2ea2bf;
+}
+
+.list-group-item {
+    background-color: #2ea2bf;
+    color: #f2f2f2;
+    font-size: 11pt;
+    border: none !important;
+    padding-bottom: 9px;
+    padding-top: 0px;
+}
+
+.footer {
+    background-color: #f7f7f7;
+	background: url(../img/footer.jpg);
+    background-size: contain;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.footer-img {
+}
+
+.menu-title {
+	font-size: 24px;
+}
+
+.news {
+	color: #da3838;
+	margin-top: 10px;
+    font-weight: 700;
+    padding-left: 35px;
+    font-size: 19pt;
+}
+
+.single-post {
+    border: 1px solid #e6e6e6;
+}
+
+.single-post:hover {
+    border: 2px solid #33b6d6;
+    cursor: pointer;
+}
